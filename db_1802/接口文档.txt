@@ -1,0 +1,58 @@
+http://10.36.140.61/db_1802/php/show.php
+
+成功
+{
+	status:1,
+	data:[]	
+}
+
+失败
+{
+	status:0,
+	data:[]	
+}
+
+
+http://10.36.140.61/db_1802/php/del.php
+
+id
+
+成功：
+	{
+		status:1,
+		info:"成功"
+	}
+
+失败
+	{
+		status:0,
+		info:"失败"
+	}
+
+
+
+
+
+http://10.36.140.61/db_1802/php/add.php
+
+后端：
+	content:
+	where:
+	idea:
+
+
+成功：
+	{
+		status:1,
+		info:"成功"
+	}
+
+失败
+	{
+		status:0,
+		info:"失败"
+	}
+
+
+
+http://10.36.140.61/db_1802/php/update.php
